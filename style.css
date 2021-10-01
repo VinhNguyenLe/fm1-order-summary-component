@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+html{
+
+    font-size: 16px;
+}
+
+.bg-img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 450px;
+    height: fit-content;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 20px 30px hsl(222deg 20% 90%);
+   
+}
+
+.text-area{
+    padding: 45px;
+
+}
+
+.pay-area{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F9FE;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.pricing-info{
+    display: flex;
+}
+
+.annual-price{
+    margin-left: 25px;
+}
+
+.change-btn{
+    text-decoration: underline;
+    color: #776EC9;
+    font-size: 13px;
+    border: none;
+    background-color: #F8F9FE;
+    padding: 12px 20px;
+    font-weight: 700;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.header{
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #24355D;
+    font-weight: 900;
+
+}
+
+.content{
+    color: #969BB0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+
+}
+
+.first-text{
+    color: #24355D;
+    font-weight: 700;
+}
+
+.second-text{
+    color: #969BB0;
+    font-weight: 500;
+
+
+}
+
+.pay-btn{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border-radius: 7px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0 20px 30px hsl(222deg 20% 90%);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.cancel-btn{
+    background-color: inherit;
+    padding: 12px 20px;
+    width: 100%;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+
+}
+
+.no-border{
+    border: none;
+}
+
+.pay-btn:hover{
+    opacity: 0.7;
+}
+
+.cancel-btn:hover{
+    color: #24355D;
+}
+
+.change-btn:hover{
+    color: #24355D;
+    text-decoration: none;
+}
