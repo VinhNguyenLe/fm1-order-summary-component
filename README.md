@@ -1,1 +1,1 @@
-not update reponsive yet ^^'
+not update reponsive yet ^^' sorry
